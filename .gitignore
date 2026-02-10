@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+.turbo/
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+.vercel
+.DS_Store
+.claude/
+nul

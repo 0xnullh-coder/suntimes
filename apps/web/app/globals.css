@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --suntimes-gold: #F5A623;
+  --suntimes-teal: #0D7377;
+  --suntimes-sand: #FFF8F0;
+  --suntimes-charcoal: #2D2D2D;
+  --suntimes-coral: #FF6B6B;
+  --suntimes-white: #FFFFFF;
+  --suntimes-light-teal: #E8F4F4;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--suntimes-charcoal);
+  background-color: var(--suntimes-sand);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
